@@ -1,0 +1,10 @@
+---
+## The file to download from the server. Files can be found at the following url:
+## https://files.magerun.net/old_versions.php
+n98_magerun_file: "n98-magerun2-1.5.0.phar"
+
+## The checksum of the above downloded file; also available at the address above
+n98_magerun_checksum: "sha256:d94f4b938f9c43d4a42f0e0ddcd38a051525f1ab0eb0cd84816ca48bbe5d2c20"
+
+## The destination path for the n98-magerun binary
+n98_magerun_dest: "/usr/local/bin/n98-magerun2.phar"

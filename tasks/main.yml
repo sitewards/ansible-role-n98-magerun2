@@ -1,0 +1,10 @@
+---
+# This installs the n98-magerun tool, useful for administering Magento installations
+- name: "Install n98-magerun from upstream"
+  get_url:
+    url: "https://files.magerun.net/{{ n98_magerun_file }}"
+    dest: "{{ n98_magerun_dest }}"
+    checksum: "{{ n98_magerun_checksum }}"
+    owner: "root"
+    group: "root"
+    mode: "u=rwx,g=rwx,o=rwx"

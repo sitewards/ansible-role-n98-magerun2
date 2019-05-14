@@ -1,0 +1,13 @@
+---
+dependencies: []
+
+galaxy_info:
+  author: "sitewards"
+  description: "n98-magerun installation"
+  company: "Sitewards GmbH"
+  license: "proprietary"
+  min_ansible_version: 2.3
+  platforms:
+    - name: Ubuntu
+      versions:
+      - 16.04
